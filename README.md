@@ -19,5 +19,8 @@ This tutorial will introduce students to the basics of using Bokeh, demonstrate 
   - using Bokeh server to link interactive visualizations to a running python instance
   - steaming data to a Bokeh plot
   - partnering Bokeh with Datashader to interactively view large datasets
-  
+
 For each of these topics, students will be given exercises to apply what they have learned and further explore the Bokeh API.
+
+## Resources
+  - Official [Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
