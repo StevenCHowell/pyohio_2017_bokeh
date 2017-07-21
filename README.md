@@ -37,23 +37,25 @@ Please *do a `git pull`* on this cloned repository either *in the evening of Fri
 ### Step 2: Create a conda environment from `environment.yml`
 
 The easiest way to get an environment set up for the tutorial is installing it using the `environment.yml` provided. If you do not already have it, install [`conda`](https://www.continuum.io/downloads), and then create the `bk_tutorial` environment by executing:
+```
+conda env create -f environment.yml
+```
 
-   conda env create -f environment.yml
+When installation is complete you may activate the environment by running the command:
+```
+activate bk_tutorial
+```
+(for Windows) or:
+```
+$ source activate bk_tutorial
+```
+(for Linux and Mac).
 
-When installation is complete you may activate the environment by writing::
-
-   > activate hvtutorial
-
-(for Windows) or::
-
-   $ source activate hvtutorial
-
-(for Linux and Mac). 
-
-Later, when you are ready to exit the environment after the tutorial, you can type::
-
-   > deactivate
-
-If for some reason you want to remove the environment entirely, you can do so by writing::
-
-   > conda env remove --name hvtutorial
+Later, when you are ready to exit the environment after the tutorial, you can type:
+```
+deactivate
+```
+If for some reason you want to remove the environment entirely, you can do so by writing:
+```
+conda env remove --name bk_tutorial
+```
