@@ -24,3 +24,12 @@ For each of these topics, students will be given exercises to apply what they ha
 
 ## Resources
   - Official [Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
+
+## Setup
+### Step 1: Clone the [pyohio_2017_bokeh](https://github.com/StevenCHowell/pyohio_2017_bokeh) repository
+
+- You can should be able to use any Linux, Mac OS X, or Windows computer with a web browser for this tutorial.  I recommend using Chrome, but the code should also work in Firefox and Safari.
+- Clone this repository, e.g. using `git clone https://github.com/StevenCHowell/pyohio_2017_bokeh`.
+- Open a terminal window inside the repository.
+
+Please do a `git pull` on this cloned repository either in the evening of Friday July 28 or in the morning of Saturday July 29.
