@@ -32,7 +32,7 @@ For each of these topics, students will be given exercises to apply what they ha
 - Clone this repository, e.g. using `git clone https://github.com/StevenCHowell/pyohio_2017_bokeh`.
 - Open a terminal window inside the repository.
 
-Please *do a `git pull`* on this cloned repository either *in the evening of Friday July 28 or in the morning of Saturday July 29*.
+**Please *do a `git pull`* on this cloned repository either *in the evening of Friday July 28 or in the morning of Saturday July 29*.**
 
 ### Step 2: Create a conda environment from `environment.yml`
 
