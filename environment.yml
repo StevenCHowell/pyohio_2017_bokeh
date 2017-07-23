@@ -1,14 +1,15 @@
 name: bk_tutorial
 channels:
   - bokeh
-  - conda-forge
   - defaults
 dependencies:
   - python=3
-  - notebook
-  - holoviews
-  - pandas
   - numpy
+  - pandas
   - scipy
   - ipython
+  - notebook
+  - jupyterlab
+  - bokeh
+  - holoviews
   - datashader
