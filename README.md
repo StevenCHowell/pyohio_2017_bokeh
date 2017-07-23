@@ -32,7 +32,7 @@ For each of these topics, students will be given exercises to apply what they ha
 - Clone this repository, e.g. using `git clone https://github.com/StevenCHowell/pyohio_2017_bokeh`.
 - Open a terminal window inside the repository.
 
-**Please *do a `git pull`* on this cloned repository either *in the evening of Friday July 28 or in the morning of Saturday July 29*.**
+Please *do a `git pull`* on this cloned repository either *in the evening of Friday July 28 or in the morning of Saturday July 29*.
 
 ### Step 2: Create a conda environment from `environment.yml`
 
@@ -65,3 +65,24 @@ If for some reason you want to remove the environment entirely, you can do so by
 ```
 conda env remove --name bk_tutorial
 ```
+
+### Step 3: Launch Jupyter Notebook
+After cloning the repository then setting up and activating the virtual environment, you can launch the notebook server and client by executing:
+```
+(bk_tutorial)$ cd notebooks
+(bk_tutorial)$ jupyter notebook --NotebookApp.iopub_data_rate_limit=100000000
+```
+
+A browser window with a Jupyter Notebook instance should now open, letting
+you select and execute each notebook. (Increasing the rate limit in
+this way is required for the current 5.0 Jupyter version, but should
+not be needed in earlier or later Jupyter releases.)
+
+
+Step 5: Test that everything is working
+---------------------------------------
+
+You can see if everything has installed correctly by selecting the
+`00-Introduction.ipynb` notebook and doing "Cell/Run All" in the menus.
+There may be warnings on some platforms, but you'll know it is working
+if you see the HoloViews logo after it runs `hv.extension()`
