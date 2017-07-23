@@ -9,4 +9,6 @@ dependencies:
   - holoviews
   - pandas
   - numpy
+  - scipy
+  - ipython
   - datashader
