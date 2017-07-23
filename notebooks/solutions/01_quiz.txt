@@ -1,0 +1,41 @@
+1. Which inputs did we see for `bokeh.plotting.figure`?
+
+kwargs:
+    title
+    x_axis_label
+    y_axis_label
+    width
+    height
+    x_range
+    y_range
+
+2. Which inputs did we see for `diamond`?
+
+args:
+    x-values
+    y-values
+
+kwargs:
+    color
+    line_color
+    fill_color
+    alpha
+    line_alpha
+    fill_alpha
+    legend
+    size
+
+3. In the diamond plots, which settings used a single value and which used a
+series of values?
+
+single values:
+    color
+    line_color
+    fill_color
+    legend
+
+series of values:
+    alpha
+    line_alpha
+    fill_alpha
+    size
