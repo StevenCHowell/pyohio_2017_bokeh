@@ -24,6 +24,7 @@ For each of these topics, students will be given exercises to apply what they ha
 
 ## Resources
   - Official [Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
+  - [SciPy 2017 - Interactive Data Visualization with HoloViews & Bokeh](https://github.com/ioam/scipy-2017-holoviews-tutorial)
 
 ## Setup
 ### Step 1: Clone the [pyohio_2017_bokeh](https://github.com/StevenCHowell/pyohio_2017_bokeh) repository
@@ -59,7 +60,7 @@ deactivate
 ```
 $ source deativate
 ```
-(for Linux and Mac).  
+(for Linux and Mac).
 
 If for some reason you want to remove the environment entirely, you can do so by writing:
 ```
