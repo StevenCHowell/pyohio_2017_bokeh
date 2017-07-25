@@ -1,6 +1,7 @@
 name: bk_tutorial
 channels:
   - bokeh
+  - ioam
   - defaults
 dependencies:
   - python=3
@@ -9,7 +10,7 @@ dependencies:
   - scipy
   - ipython
   - notebook
-  - jupyterlab
+  - pyparsing
   - bokeh
   - holoviews
   - datashader
