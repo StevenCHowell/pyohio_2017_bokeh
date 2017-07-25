@@ -23,8 +23,10 @@ This tutorial will introduce students to the basics of using Bokeh, demonstrate 
 For each of these topics, students will be given exercises to apply what they have learned and further explore the Bokeh API.
 
 ## Resources
-  - Official [Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
+  - [Official Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
+  - [Bokeh Documentation](http://bokeh.pydata.org/en/latest/)
   - [SciPy 2017 - Interactive Data Visualization with HoloViews & Bokeh](https://github.com/ioam/scipy-2017-holoviews-tutorial)
+  - [HoloViews Documentation](http://holoviews.org/)
 
 ## Setup
 ### Step 1: Clone the [pyohio_2017_bokeh](https://github.com/StevenCHowell/pyohio_2017_bokeh) repository
