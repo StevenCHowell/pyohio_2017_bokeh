@@ -3,17 +3,17 @@ p = bokeh.plotting.figure(
     x_axis_label='x',
     y_axis_label='f(x)',
     width=400, height=350,
-    x_range=(-8, 8),
-    y_range=(-1.5, 3)
+    x_range=(0, 20),
+    y_range=(-0.1, 0.5)
 )
 
 p.circle_cross(
-    x, y_sin,
+    x, y1,
     line_color=palette[0],
     fill_color=palette[1],
-    line_alpha=((y_sin+1)/2), # oscillate from 0 to 1 (y min to max)
-    fill_alpha=((1-y_sin)/2), # oscillate from 1 to 0 (y min to max)
-    legend='Sine',
+    line_alpha=y1/y1.max(), # oscillate from 0 to 1 (y min to max)
+    fill_alpha=(1-y1/y1.max()), # oscillate from 1 to 0 (y min to max)
+    legend='m=10, s=4',
     size=5
 )
 
@@ -23,7 +23,7 @@ p.inverted_triangle(
     fill_color=palette[3],
     line_alpha=((y_cos+1)/2), # oscillate from 0 to 1 (y min to max)
     fill_alpha=((1-y_cos)/2), # oscillate from 1 to 0 (y min to max)
-    legend='Cosine',
+    legend='',
     size=10
 )
 
