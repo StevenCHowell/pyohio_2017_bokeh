@@ -29,17 +29,22 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-This tutorial includes material adapted from the following Open Source repositories.  You can view the source code along with their license information below.  I acknowledge and am grateful to these developers for their open source contributions.
-
+This tutorial includes material adapted from the following Open Source 
+repositories.  You can view the source code along with their license 
+information below.  I acknowledge and am grateful to these developers for 
+their open source contributions.
 
 Project: Bokeh
 https://github.com/bokeh/bokeh
 Copyright (c) 2012, Continuum Analytics, Inc.
 All rights reserved.
-License (3-Clause BSD) https://github.com/bokeh/bokeh/blob/master/LICENSE.txt
+License (3-Clause BSD)
+https://github.com/bokeh/bokeh/blob/master/LICENSE.txt
 
-Project: SciPy 2017 Tutorial: "Interactive Data Visualization with HoloViews & Bokeh"
+Project: SciPy 2017 Tutorial 
+"Interactive Data Visualization with HoloViews & Bokeh"
 https://github.com/ioam/scipy-2017-holoviews-tutorial
 Copyright (c) 2017, IOAM
 All rights reserved.
-License (3-Clause BSD) ​https://github.com/ioam/scipy-2017-holoviews-tutorial/blob/master/LICENSE
+License (3-Clause BSD) 
+https://github.com/ioam/scipy-2017-holoviews-tutorial/blob/master/LICENSE
