@@ -23,10 +23,26 @@ This tutorial will introduce students to the basics of using Bokeh, demonstrate 
 For each of these topics, students will be given exercises to apply what they have learned and further explore the Bokeh API.
 
 ## Resources
-  - [Official Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
+### Documentation
   - [Bokeh Documentation](http://bokeh.pydata.org/en/latest/)
-  - [SciPy 2017 - Interactive Data Visualization with HoloViews & Bokeh](https://github.com/ioam/scipy-2017-holoviews-tutorial)
   - [HoloViews Documentation](http://holoviews.org/)
+### Tutorials
+  - [Official Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
+  - [SciPy 2017 - Interactive Data Visualization with HoloViews & Bokeh](https://github.com/ioam/scipy-2017-holoviews-tutorial)
+### Questions
+  - [Stack Overflow](https://stackoverflow.com) Tags
+    - [bokeh](https://stackoverflow.com/questions/tagged/bokeh)
+    - [datashader](https://stackoverflow.com/questions/tagged/datashader)
+    - [holoviews](https://stackoverflow.com/questions/tagged/holoviews)
+  - [Gitter](https://gitter.im)
+      - [bokeh](https://gitter.im/bokeh/bokeh)
+      - [holoviews](https://gitter.im/ioam/holoviews)      
+  - Mailing Lists
+    - [bokeh google group](https://groups.google.com/a/continuum.io/forum/#!forum/bokeh)
+### Issues & Pull Requests - **Contributions Welcome!**
+  - [Bokeh](https://github.com/bokeh/bokeh)
+  - [Datashader](https://github.com/bokeh/datashader)
+  - [HoloViews](https://github.com/ioam/holoviews)
 
 ## Setup
 ### Step 1: Clone the [pyohio_2017_bokeh](https://github.com/StevenCHowell/pyohio_2017_bokeh) repository
@@ -68,6 +84,8 @@ If for some reason you want to remove the environment entirely, you can do so by
 ```
 conda env remove --name bk_tutorial
 ```
+
+For additional information about working with `conda` environments, consult the [`conda` documentation](https://conda.io/docs/using/envs.html#managing-environments).
 
 ### Step 3: Launch Jupyter Notebook
 After cloning the repository then setting up and activating the virtual environment, you can launch the notebook server and client by executing:
