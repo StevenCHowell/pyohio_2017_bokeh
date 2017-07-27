@@ -202,6 +202,10 @@ def do_fit(fit_data):
     return mu, sigma
 
 def update_x_fit(attr, old, new):
+    # fit_pdf limits lines
+    x_min_line.data_source.data['x'] = [x_low.value] * 2
+    x_max_line.data_source.data['x'] = [x_high.value] * 2
+
     # fit the data within input bounds
     data = hh1.data_source.data["top"]
     mask = (hfit_x > x_min) & (hfit_x < x_max)
@@ -215,11 +219,11 @@ def update_x_fit(attr, old, new):
     hfit_y = gaussian(fit_data, mu, sigma)
     x_fit_line.data_source.data['y'] = hfit_y
 
-    # fit_pdf limits lines
-    x_min_line.data_source.data['x'] = [x_low.value] * 2
-    x_max_line.data_source.data['x'] = [x_high.value] * 2
-
 def update_y_fit(attr, old, new):
+    # fit_pdf limits lines
+    y_min_line.data_source.data['y'] = [y_low.value] * 2
+    y_max_line.data_source.data['y'] = [y_high.value] * 2
+
     # fit the data within input bounds
     data = vh1.data_source.data["right"]
     print(len(vfit_y))
@@ -233,10 +237,6 @@ def update_y_fit(attr, old, new):
     # fit_pdf guassian fit
     vfit_x = gaussian(fit_data, mu, sigma)
     y_fit_line.data_source.data['x'] = vfit_x
-
-    # fit_pdf limits lines
-    y_min_line.data_source.data['y'] = [y_low.value] * 2
-    y_max_line.data_source.data['y'] = [y_high.value] * 2
 
 # ~~~~~~~~~~~~~~ create the application ~~~~~~~~~~~~~~ #
 bokeh.plotting.curdoc().add_root(layout)
