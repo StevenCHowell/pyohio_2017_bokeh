@@ -34,17 +34,19 @@ repositories.  You can view the source code along with their license
 information below.  I acknowledge and am grateful to these developers for
 their open source contributions.
 
-Project: Bokeh & Datashader
+Projects: Bokeh, Bokeh-Notebooks, & Datashader
 https://github.com/bokeh/bokeh
+https://github.com/bokeh/bokeh-notebooks
 https://github.com/bokeh/datashader
 Copyright (c) 2012, Continuum Analytics, Inc.
 All rights reserved.
 License (3-Clause BSD)
 https://github.com/bokeh/bokeh/blob/master/LICENSE.txt
+https://github.com/bokeh/bokeh-notebooks/blob/master/LICENSE.txt
 https://github.com/bokeh/datashader/blob/master/LICENSE.txt
 
-Project: SciPy 2017 Tutorial
-"Interactive Data Visualization with HoloViews & Bokeh"
+Project: “Interactive Data Visualization with HoloViews & Bokeh” 
+SciPy 2017 Tutorial
 https://github.com/ioam/scipy-2017-holoviews-tutorial
 Copyright (c) 2017, IOAM
 All rights reserved.
