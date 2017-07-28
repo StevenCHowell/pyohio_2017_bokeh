@@ -22,28 +22,6 @@ This tutorial will introduce students to the basics of using Bokeh, demonstrate 
 
 For each of these topics, students will be given exercises to apply what they have learned and further explore the Bokeh API.
 
-## Resources
-### Documentation
-  - [Bokeh Documentation](http://bokeh.pydata.org/en/latest/)
-  - [HoloViews Documentation](http://holoviews.org/)
-### Tutorials
-  - [Official Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
-  - [SciPy 2017 - Interactive Data Visualization with HoloViews & Bokeh](https://github.com/ioam/scipy-2017-holoviews-tutorial)
-### Questions
-  - [Stack Overflow](https://stackoverflow.com) Tags
-    - [bokeh](https://stackoverflow.com/questions/tagged/bokeh)
-    - [datashader](https://stackoverflow.com/questions/tagged/datashader)
-    - [holoviews](https://stackoverflow.com/questions/tagged/holoviews)
-  - [Gitter](https://gitter.im)
-      - [bokeh](https://gitter.im/bokeh/bokeh)
-      - [holoviews](https://gitter.im/ioam/holoviews)      
-  - Mailing Lists
-    - [bokeh google group](https://groups.google.com/a/continuum.io/forum/#!forum/bokeh)
-### Issues & Pull Requests - **Contributions Welcome!**
-  - [Bokeh](https://github.com/bokeh/bokeh)
-  - [Datashader](https://github.com/bokeh/datashader)
-  - [HoloViews](https://github.com/ioam/holoviews)
-
 ## Setup
 ### Step 1: Clone the [pyohio_2017_bokeh](https://github.com/StevenCHowell/pyohio_2017_bokeh) repository
 
@@ -104,6 +82,35 @@ Step 5: Test that everything is working
 ---------------------------------------
 
 You can see if everything has installed correctly by selecting the
-`00-Introduction.ipynb` notebook and doing "Cell/Run All" in the menus.
+`00-introduction.ipynb` notebook and doing "Cell/Run All" in the menus.
 There may be warnings on some platforms, but you'll know it is working
-if you see the HoloViews logo after it runs `hv.extension()`
+if you see output that looks something like this:
+
+    IPython - 6.1.0
+    Pandas - 0.20.3
+    Bokeh - 0.12.6
+
+as well as the Bokeh and HoloViews logos after it runs `bokeh.plotting.output_notebook()` and `hv.extension()`, respectively.
+
+## Additional Resources
+### Documentation
+  - [Bokeh Documentation](http://bokeh.pydata.org/en/latest/)
+  - [HoloViews Documentation](http://holoviews.org/)
+### Tutorials
+  - [Official Bokeh Tutorial](http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20intro.ipynb)
+  - [SciPy 2017 - Interactive Data Visualization with HoloViews & Bokeh](https://github.com/ioam/scipy-2017-holoviews-tutorial)
+### Questions
+  - [Stack Overflow](https://stackoverflow.com) Tags
+    - [bokeh](https://stackoverflow.com/questions/tagged/bokeh)
+    - [datashader](https://stackoverflow.com/questions/tagged/datashader)
+    - [holoviews](https://stackoverflow.com/questions/tagged/holoviews)
+  - [Gitter](https://gitter.im)
+      - [bokeh](https://gitter.im/bokeh/bokeh)
+      - [holoviews](https://gitter.im/ioam/holoviews)      
+  - Mailing Lists
+    - [bokeh google group](https://groups.google.com/a/continuum.io/forum/#!forum/bokeh)
+### Get Involved - **Contributions Welcome!**
+  - [Bokeh repo](https://github.com/bokeh/bokeh)
+  - [Datashader repo](https://github.com/bokeh/datashader)
+  - [HoloViews repo](https://github.com/ioam/holoviews)
+
