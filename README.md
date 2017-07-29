@@ -54,7 +54,7 @@ deactivate
 ```
 (for Windows) or:
 ```
-$ source deativate
+$ source deactivate
 ```
 (for Linux and Mac).
 
