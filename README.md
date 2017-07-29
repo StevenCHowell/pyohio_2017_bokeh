@@ -68,7 +68,7 @@ For additional information about working with `conda` environments, consult the 
 ### Step 3: Launch Jupyter Notebook
 After cloning the repository then setting up and activating the virtual environment, you can launch the notebook server and client by executing:
 ```
-(bk_tutorial)$ cd materials
+(bk_tutorial)$ cd material
 (bk_tutorial)$ jupyter notebook --NotebookApp.iopub_data_rate_limit=100000000
 ```
 
