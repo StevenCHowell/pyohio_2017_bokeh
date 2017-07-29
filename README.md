@@ -68,7 +68,7 @@ For additional information about working with `conda` environments, consult the 
 ### Step 3: Launch Jupyter Notebook
 After cloning the repository then setting up and activating the virtual environment, you can launch the notebook server and client by executing:
 ```
-(bk_tutorial)$ cd notebooks
+(bk_tutorial)$ cd materials
 (bk_tutorial)$ jupyter notebook --NotebookApp.iopub_data_rate_limit=100000000
 ```
 
@@ -106,11 +106,10 @@ as well as the Bokeh and HoloViews logos after it runs `bokeh.plotting.output_no
     - [holoviews](https://stackoverflow.com/questions/tagged/holoviews)
   - [Gitter](https://gitter.im)
       - [bokeh](https://gitter.im/bokeh/bokeh)
-      - [holoviews](https://gitter.im/ioam/holoviews)      
+      - [holoviews](https://gitter.im/ioam/holoviews)
   - Mailing Lists
     - [bokeh google group](https://groups.google.com/a/continuum.io/forum/#!forum/bokeh)
 ### Get Involved - **Contributions Welcome!**
   - [Bokeh repo](https://github.com/bokeh/bokeh)
   - [Datashader repo](https://github.com/bokeh/datashader)
   - [HoloViews repo](https://github.com/ioam/holoviews)
-
